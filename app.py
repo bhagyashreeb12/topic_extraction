@@ -1,8 +1,7 @@
 import streamlit as st
 import openai
 
-# Set your OpenAI API key
-openai.api_key = 'YOUR_OPENAI_API_KEY'
+
 
 # Function to extract topics using OpenAI API
 def extract_topics(text, num_topics):
